@@ -3,6 +3,6 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php echo '<p>Hello World This site belongs to luon9752 </p>'; ?> 
+ <?php echo '<p> Hello world ! this site belongs to luon9752 </p>'; ?> 
  </body>
 </html>
