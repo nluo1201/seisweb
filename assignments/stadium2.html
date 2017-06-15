@@ -3,8 +3,11 @@
 <head>
 <meta charset=utf-8>
 <title>Ngoc Luong (Henry)</title>
+
 <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 <link rel="icon" href="./favicon.ico" type="image/x-icon">
+<link rel="import" href="https://raw-dot-custom-elements.appspot.com/GoogleWebComponents/google-map/1.2.0/google-map/google-map.html">
+
 </head>
 
 <body>
@@ -12,8 +15,8 @@
 		<h1>Stadium2</h1>
 	</header>
 	<nav>
-		<a href="./squad.html">Squad</a> |
 		<a href="./index.html"> Landing Page | </a>
+		<a href="./squad.html">Squad</a> |
 		<a href="./stadium.html"> Stadium </a>
 	</nav>
 	
@@ -31,9 +34,19 @@
 	
 	<section>
 		<h1> Google Map Custom Element </h1>
+		<script src="https://raw-dot-custom-elements.appspot.com/GoogleWebComponents/google-map/1.2.0/webcomponentsjs/webcomponents-lite.min.js">
+		</script>
 		
+		<style>
+		  google-map {
+			height: 300px;
+		  }
+		</style>
+		<google-map fit-to-marker api-key="">
+		  <google-map-marker latitude="52.62" longitude="-1.14">
+		  </google-map-marker>
+		</google-map>
 	</section>
-	
 	
 	<section>
 		<h1>Team Name: Leicester City</h1>
@@ -52,8 +65,8 @@
 	<a href="mailto:luon9752@stthomas.edu"> Send me an email! </a>
   </p>
   <nav>
-		<a href="./squad.html">Squad</a> |
 		<a href="./index.html"> Landing Page | </a> 
+		<a href="./squad.html">Squad</a> |
 		<a href="./stadium.html"> Stadium </a>
 		
   </nav>
