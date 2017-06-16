@@ -95,10 +95,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-p::first-line { 
+h1::first-line { 
     background-color: yellow;
 }
-
+@font-face {
+   font-family: googleTekko;
+   src: https://fonts.googleapis.com/css?family=Teko;
+}
+h1,h2 {
+   font-family: googleTekko;
+}
 
 
 
