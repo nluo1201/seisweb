@@ -34,6 +34,14 @@ ol > li:nth-of-type(even) {
     background: AntiqueWhite;
 }
 
+.verses { background: aqua; }
+.verses:nth-of-type(odd) {
+	background: azure; 
+}
+
+.chorus {
+	font-style: italic;
+}
 
 p {
     font-size: 16px;
