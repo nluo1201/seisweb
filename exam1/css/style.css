@@ -29,7 +29,7 @@ code {
   font-size: 80%;
 }
 
-li { background: aliceblue; }
-li:nth-of-type(even) {
+ol > li { background: aliceblue; }
+ol > li:nth-of-type(even) {
     background: AntiqueWhite;
 }
