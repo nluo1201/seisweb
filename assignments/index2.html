@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8>
+<title>Ngoc Luong (Henry)</title>
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+<link rel="icon" href="./favicon.ico" type="image/x-icon">
+<link rel="import" href="./loader.html">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Landing Page</h1>
+	</header>
+	<nav>
+		<a href="./squad.html">Squad</a> |
+		<a href="./stadium.html">Stadium | </a>
+		<a href="./stadium2.html">Stadium 2 </a>
+	</nav>
+	<section>
+		<h1 id="team_name">Team Name: Leicester City</h1>
+		<p>The Socer team Leicester City is an English football club based at the King Power Stadium in Leicester </p>
+	</section>
+
+</body>
+
+<footer>
+	
+  <p>Posted by: Henry Luong</p>
+  <p>Contact information: 
+	<a href="mailto:luon9752@stthomas.edu"> Send me an email! </a>
+  </p>
+  <nav>
+		<a href="./squad.html">Squad</a> |
+		<a href="./stadium.html">Stadium |</a>
+		<a href="./stadium2.html"> Stadium 2 </a>
+	</nav>
+</footer>
+<script>
+$(document).ready(function(){
+    $("#team_name").hover(function(){
+        $(this).css("color", "red");
+        }, function(){
+        $(this).css("color", "black");
+    });
+});
+</script>
+</html>
