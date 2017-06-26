@@ -19,7 +19,7 @@
 		<a href="./stadium2.html">Stadium 2 </a>
 	</nav>
 	<section>
-		<h1 id="team_name" onmouseover="this.style.color='red'" onmouseout="this.style.color='blacḱ'">Team Name: Leicester City</h1>
+		<h1 id="team_name">Team Name: Leicester City</h1>
 		<p>The Socer team Leicester City is an English football club based at the King Power Stadium in Leicester </p>
 	</section>
 
@@ -37,4 +37,17 @@
 		<a href="./stadium2.html"> Stadium 2 </a>
 	</nav>
 </footer>
+<script type="text/javascript">
+    function changeToRed() {
+        this.style.color ='red';
+    }
+
+    function changeToBlack() {
+        this.style.color ='black';
+    }
+
+    document.getElementById('team_name').onmouseover= ChangeColor;
+	document.getElementById('team_name').onmouseout= ChangeColorBack;
+    
+</script>
 </html>
