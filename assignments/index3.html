@@ -23,7 +23,8 @@
 		<p>The Socer team Leicester City is an English football club based at the King Power Stadium in Leicester </p>
 	</section>
 	<section>
-	<div id="twitter_notification">
+	<div id="twitter_posts">
+		<a class="twitter-timeline" href="https://twitter.com/LCFC" data-tweet-limit="5">Top 5 tweets by LCFC: </a>
 	</div>
 	
 	</section>
@@ -49,13 +50,11 @@
 		function changeToBlack() {
 			this.style.color ='black';
 		}
-		Tweeter.url='https://twitter.com/lcfc';
-		Tweeter.tweetCount = 3; // Optional
-		
-
 		document.getElementById('team_name').onmouseover= changeToRed;
 		document.getElementById('team_name').onmouseout= changeToBlack;
+
 	</script>
+	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 
 </html>
