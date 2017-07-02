@@ -110,8 +110,9 @@ nav {
 nav a {
 	display: inline-block;
 	font-family: 'Teko', sans-serif;
-	font-size: 15pt;
+	font-size: 20pt;
 	padding: 1%;
+	text-decoration: none;
 }
 
 /* Change the link color to aqua on hover */
@@ -129,7 +130,8 @@ h1,h2 {
 
 header{
 	width: 100%;
-	height: 10pt;
+	height: 10%;
+	background-color: skyblue;
 }
 
 
