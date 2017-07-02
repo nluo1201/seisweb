@@ -99,7 +99,7 @@ body {
 	 padding-right: 3%;
 }
 
-nav {
+.main-nav {
 	background-color: aliceblue;
 	color: black;
 	text-align: center;
@@ -107,7 +107,7 @@ nav {
 	margin: 0;
 	display: block;
 }
-nav a {
+.main-nav a {
 	display: inline-block;
 	font-family: 'Teko', sans-serif;
 	font-size: 20pt;
@@ -116,8 +116,32 @@ nav a {
 }
 
 /* Change the link color to aqua on hover */
-nav a:hover {
+.main-nav a:hover {
 	background-color: aqua;
+}
+
+.sub-nav {
+	background-color: aqua;
+	width: 100%
+	border: 1pt solid ;
+	color: red;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.sub-nav a {
+	display: inline-block;
+	font-family: 'Teko', sans-serif;
+	font-size: 15pt;
+	padding: 1%;
+	color: red;
+}
+
+/* Change the link color to aqua on hover */
+.sub-nav a:hover {
+	background-color: aliceblue;
+	color: black;
 }
    
 h1::first-line { 
