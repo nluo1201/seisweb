@@ -11,6 +11,6 @@
 
 <body>
 	<header>
-		<h1>Public Chat</h1>
+		Public Chat
 	</header>
 	<?php  include("./html_inc/nav.php"); ?>
