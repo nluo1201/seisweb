@@ -133,7 +133,7 @@ body {
 .sub-nav a {
 	display: inline-block;
 	font-family: 'Teko', sans-serif;
-	font-size: 15pt;
+	font-size: 18pt;
 	padding: 1%;
 	color: red;
 }
@@ -141,7 +141,7 @@ body {
 /* Change the link color to aqua on hover */
 .sub-nav a:hover {
 	background-color: aliceblue;
-	color: black;
+	color: aqua;
 }
    
 h1::first-line { 
