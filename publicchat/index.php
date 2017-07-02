@@ -1,4 +1,4 @@
- <?php include("inc/html_inc/header.php"); ?>
+ <?php include($_SERVER['DOCUMENT_ROOT']."publicchat/html_inc/header.php"); ?>
 
 
 
@@ -20,4 +20,4 @@
 
 
 
-<?php  include("inc/html_inc/footer.php"); ?>
+<?php  $_SERVER['DOCUMENT_ROOT']."publicchat/html_inc/footer.php"); ?>
