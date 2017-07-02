@@ -143,8 +143,8 @@ header{
 	height: 25%;
 }
 
-#chat-butt {
-	border: 5pt;
+#chat-butt, #send-but {
+	border: 5pt solid;
     color: black;
 	background-color: skyblue ;
     padding: 20px 20px 20px 20px;
@@ -163,9 +163,25 @@ header{
 	border: none;
 }
 
+#send-but:hover {
+	background-color: aqua;
+	border: none;
+}
+
+#chat-screen: {
+	width: 100%;
+	height: 70%;
+	overflow: scroll ;
+	background-color: white;
+	border: 5pt solid;
+}
 
 
-
+#chat-input:{
+	background-color: white;
+	padding-top: 1%;
+	width: 100%;
+}
 
 
 

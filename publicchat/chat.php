@@ -7,12 +7,12 @@
 	Ajax will display all public chat stream here!
 </div>
 
-<div id="chat-input"
+<div id="chat-input">
 	You will type some message here to send
 	<form action="./chat.php">
 	Enter a message to send:<br>
 	<input type="text" name="message">
-	<input id="chat-butt" type="submit" value="Send">
+	<input id="send-but" type="submit" value="Send">
 	</form> 
 </div>
 
