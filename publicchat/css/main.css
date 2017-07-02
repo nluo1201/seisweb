@@ -185,18 +185,18 @@ header{
 }
 
 #chat-screen: {
-	width: 100%;
-	height: 70%;
-	overflow: scroll ;
+	overflow: scroll;
+	border:1px solid black;
+    height:200px;
+    width:95%;
 	background-color: white;
-	border: 5pt solid;
 }
-
 
 #chat-input:{
 	background-color: white;
+	border:1px solid black;
 	padding-top: 1%;
-	width: 100%;
+	width: 95%;
 }
 
 
