@@ -188,12 +188,12 @@ header{
 	width: 100%;
 }
 
-#chat-screen: {
+#chatscreen: {
 	overflow-y:scroll ;
 	border:1px solid black;
     height:200px;
     width:95%;
-	background-color: black;
+	background-color: FloralWhite;
 }
 
 #chat-input:{

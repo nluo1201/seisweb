@@ -3,7 +3,7 @@
 
 <h1> Chat </h1>
 <div class="container"> 
-	<div id="chat-screen"> 
+	<div id="chatscreen"> 
 		Ajax will display some public chat stream here! <br>
 		Ajax will display some public chat stream here! <br>
 		Ajax will display some public chat stream here! <br>
