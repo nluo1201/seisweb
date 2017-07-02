@@ -141,7 +141,7 @@ body {
 /* Change the link color to aqua on hover */
 .sub-nav a:hover {
 	background-color: aliceblue;
-	color: aqua;
+	color: blue;
 }
    
 h1::first-line { 
