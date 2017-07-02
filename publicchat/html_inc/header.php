@@ -5,13 +5,12 @@
 <title>PublicChat</title>
 <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 <link rel="icon" href="./favicon.ico" type="image/x-icon">
-<link rel="import" href="
-						<?php echo($_SERVER['DOCUMENT_ROOT']. "publicchat/html_inc/loader.html") ?> 
-						">
+<?php echo("<link rel='import' href='" . "/publicchat/html_inc/loader.html'>");?> 
+						
 </head>
 
 <body>
 	<header>
 		<h1>Public Chat</h1>
 	</header>
-	<?php  include($_SERVER['DOCUMENT_ROOT']. "publicchat/html_inc/nav.php"); ?>
+	<?php  include("/publicchat/html_inc/nav.php"); ?>

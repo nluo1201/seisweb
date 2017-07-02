@@ -1,5 +1,5 @@
 <footer>
-	<?php  include($_SERVER['DOCUMENT_ROOT']. "publicchat/inc/html_inc/nav.php"); ?>
+	<?php  include("/publicchat/html_inc/nav.php"); ?>
 	<p>Posted by: Henry Luong</p>
 	<p>Contact information: 
 	<a href="mailto:luon9752@stthomas.edu"> Send me an email! </a>
