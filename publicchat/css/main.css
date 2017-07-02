@@ -143,8 +143,8 @@ header{
 	height: 25%;
 }
 
-#chat-butt, #send-but {
-	border: 5pt solid;
+#send-but {
+	border: 1pt solid;
     color: black;
 	background-color: skyblue ;
     padding: 20px 20px 20px 20px;
@@ -157,6 +157,22 @@ header{
     margin: 4px 2px;
     cursor: pointer;
 }
+
+#chat-butt  {
+	border: 1pt solid;
+    color: black;
+	background-color: skyblue ;
+    padding: 20px 20px 20px 20px;
+	width: 20%;
+	height: 20%
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+	font-family: 'Teko', sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 
 #chat-butt:hover {
 	background-color: aqua;
