@@ -1,16 +1,16 @@
  <?php include("./html_inc/header.php"); ?>
 
 
-<h1> Chat </h1>
+<h1> CHAT </h1>
 <div class="container"> 
 	<div id="chatscreen"> 
-		Ajax will display some public chat stream here! <br>
-		Ajax will display some public chat stream here! <br>
-		Ajax will display some public chat stream here! <br>
-		Ajax will display some public chat stream here! <br>
-		Ajax will display some public chat stream here! <br>
-		Ajax will display some public chat stream here! <br>
-		Ajax will display some public chat stream here! <br>
+		Ajax will display some public chat stream here! 
+		Ajax will display some public chat stream here! 
+		Ajax will display some public chat stream here! 
+		Ajax will display some public chat stream here! 
+		Ajax will display some public chat stream here! 
+		Ajax will display some public chat stream here! 
+		Ajax will display some public chat stream here! 
 		Ajax will display some public chat stream here! <br>
 		Ajax will display some public chat stream here! <br>
 		Ajax will display some public chat stream here! <br>
@@ -37,7 +37,7 @@
 	<form action="./chat.php">
 	Enter a message to send:<br>
 	<input type="text" name="message">
-	<input id="send-but" type="submit" value="Send">
+	<input id="send-butt" type="submit" value="Send">
 	</form> 
 </div>
 

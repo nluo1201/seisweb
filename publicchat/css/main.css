@@ -143,6 +143,15 @@ header{
 	height: 25%;
 }
 
+
+#chatscreen {
+	overflow-y:scroll ;
+	border:1px solid black;
+    height:200px;
+    width:95%;
+	background-color: FloralWhite;
+}
+
 #send-but {
 	border: 1pt solid;
     color: black;
@@ -179,22 +188,12 @@ header{
 	border: none;
 }
 
-#send-but:hover {
+#send-butt:hover {
 	background-color: aqua;
 	border: none;
 }
 
-.container{
-	width: 100%;
-}
 
-#chatscreen: {
-	overflow-y:scroll ;
-	border:1px solid black;
-    height:200px;
-    width:95%;
-	background-color: FloralWhite;
-}
 
 #chat-input:{
 	background-color: white;
