@@ -9,7 +9,7 @@
 
 <div id="chat-input"
 	You will type some message here to send
-	<form action="../chat.php">
+	<form action="./chat.php">
 	Enter a message to send:<br>
 	<input type="text" name="message">
 	<input id="chat-butt" type="submit" value="Send">
