@@ -146,6 +146,7 @@ header{
 	border: 1pt;
     color: black;
 	background-color: skyblue ;
+    padding: 20px 20px 20px 20px;
     text-align: center;
     display: inline-block;
     font-size: 20px;
