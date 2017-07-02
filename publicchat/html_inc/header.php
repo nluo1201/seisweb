@@ -12,4 +12,4 @@
 	<header>
 		<h1>Public Chat</h1>
 	</header>
-	<? include("inc/html_inc/nav.php"); ?>
+	<?php  include("inc/html_inc/nav.php"); ?>
