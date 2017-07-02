@@ -5,7 +5,7 @@
 <title>PublicChat</title>
 <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 <link rel="icon" href="./favicon.ico" type="image/x-icon">
-<?php echo("<link rel='import' href='" . "/publicchat/html_inc/loader.html'>");?> 
+<?php echo("<link rel='import' href='" . "./html_inc/loader.html'>");?> 
 						
 </head>
 
@@ -13,4 +13,4 @@
 	<header>
 		<h1>Public Chat</h1>
 	</header>
-	<?php  include("/publicchat/html_inc/nav.php"); ?>
+	<?php  include("./html_inc/nav.php"); ?>
