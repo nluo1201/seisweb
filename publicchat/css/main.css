@@ -147,9 +147,9 @@ header{
 #chatscreen {
 	overflow-y:scroll ;
 	border:1px solid black;
-    height:200px;
-    width:95%;
-	background-color: FloralWhite;
+    height:70%;
+    width:100%;
+	background-color: ghostwhite;
 }
 
 #send-but {
