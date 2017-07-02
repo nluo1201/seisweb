@@ -4,9 +4,33 @@
 <h1> Chat </h1>
 
 <div id="chat-screen"> 
-	Ajax will display all public chat stream here!
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
+	Ajax will display some public chat stream here! <br>
 </div>
-
+<br>
 <div id="chat-input">
 	You will type some message here to send
 	<form action="./chat.php">
