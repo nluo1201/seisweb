@@ -7,7 +7,7 @@
 	<form action="../chat.php">
 	Enter any padding name:<br>
 	<input type="text" name="name">
-	<input id="chat-butt" type="submit" value="Submit">
+	<input id="chat-butt" type="submit" value="Start Chat">
 	</form> 
 </div>
 

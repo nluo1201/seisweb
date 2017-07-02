@@ -138,16 +138,15 @@ header{
 
 /* id = chat-box */
 #chat-box {
-	background-color: aliceblue;
+	background-color: lightblue;
 	width: 100%;
 }
 
 #chat-butt {
 	border: 1pt;
     color: black;
-    padding: 15px 32px;
+	background-color: skyblue ;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 20px;
 	font-family: 'Teko', sans-serif;
