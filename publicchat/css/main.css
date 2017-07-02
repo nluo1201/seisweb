@@ -108,7 +108,7 @@ nav {
 	display: block;
 }
 nav a {
-	display: block;
+	display: inline-block;
 	font-family: 'Teko', sans-serif;
 	font-size: 15pt;
 	padding: 1%;
