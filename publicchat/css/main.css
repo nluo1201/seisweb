@@ -123,8 +123,7 @@ body {
 
 .sub-nav {
 	background-color: aqua;
-	width: 80%;
-	border: 1pt solid ;
+	border: 1pt solid black ;
 	color: red;
 	text-align: center;
 	padding-left: 2%;
