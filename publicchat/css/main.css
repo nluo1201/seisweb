@@ -143,10 +143,12 @@ header{
 }
 
 #chat-butt {
-	border: 1pt;
+	border: 5pt;
     color: black;
 	background-color: skyblue ;
     padding: 20px 20px 20px 20px;
+	width: 20%;
+	height: 20%
     text-align: center;
     display: inline-block;
     font-size: 20px;
