@@ -173,7 +173,7 @@ header{
 #chatscreen {
 	overflow-y:scroll ;
 	border:1px solid black;
-    height:70%;
+    height:200px;
     width:100%;
 	background-color: ghostwhite;
 }
@@ -228,8 +228,16 @@ header{
 	width: 95%;
 }
 
+#userid{
+	color: red;
+}
 
-
+.userids{
+	color: red;
+}
+.message{
+	padding-left: 5%;
+}
 
 
 

@@ -4,9 +4,9 @@
 <h1> HOME </h1>
 
 <div id="chat-box"> 
-	<form action="./chat.php">
+	<form method="post" action="./chat.php">
 	Enter any padding name:<br>
-	<input type="text" name="name">
+	<input type="text" name="name" placeholder="user">
 	<input id="chat-butt" type="submit" value="Start Chat">
 	</form> 
 </div>
