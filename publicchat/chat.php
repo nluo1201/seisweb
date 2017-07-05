@@ -7,7 +7,7 @@ if(isset($_POST['name'])){
 		$user = $_POST['name'];
 	}
 	session_start();
-	$userid = uniqid($user . "_");
+	$userid = $user . "_" . substr(md5(uniqid("")), 0, 5);
 	$_SESSION["userid"] = $userid;
 	echo (
 		"<h2> Your User ID is: <div id='userid'> ". $userid ."</div> </h2>

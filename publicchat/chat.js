@@ -1,19 +1,38 @@
 
 function postNewMessage(recvData){
+	if(recvData.status){
+		if(recvData.messages){
+			var div = document.getElementById('chatscreen');
+			var messages = recvData.messages;
+			var size = Object.keys(messages).length;
+			$curPos = $curPos + size;
+			for (var i = 0; i < size; i++) {
+				var item = messages[i];
+				var output = "<div class='mitem'> <div class='userids'>" 
+				+ item.userid + ": </div>"
+				+ "<div class='message'>" + item.message
+				+ " </div> </div>";	
+				div.innerHTML = div.innerHTML + output;
+				div.scrollTop = div.scrollHeight;
+			}	
+		}
+	}
+}
 
+function postSystemStatus(message){
 	var div = document.getElementById('chatscreen');
-	var output = "<div class='mitem'> <div class='userids'>" 
-	+ recvData.userid + ": </div>"
-	+ "<div class='message'>" + recvData.message
-	+ " </div> </div>";	
+	var output = "<div class='errnotice'>" 
+	+ message + "</div>";
 	div.innerHTML = div.innerHTML + output;
 	div.scrollTop = div.scrollHeight;
 }
 
 
+
 function getMessages(){
 	var request = {
-		method: 'pull'
+		method: 'pull',
+		position: $curPos
 	}
 	$.ajax({
 		type: "POST",
@@ -24,6 +43,7 @@ function getMessages(){
 		cache: false,
 		success: function(result){
 			//var data = jQuery.parseJSON(result);
+			
 			postNewMessage(result);
 		},
 		complete: function(){
@@ -47,11 +67,12 @@ function sendMessage(userid, message){
 		cache: false,
 		success: function(result){
 			//var data = jQuery.parseJSON(result);
-			if(result.status == true){
+			if(result.status){
 				console.log("message sent sucessfully");
 			}
 			else{
 				console.log("message failed to send!");
+				postSystemStatus("Cannot send messages!");
 			}
 			
 			//delete old text.
@@ -63,6 +84,8 @@ function sendMessage(userid, message){
 		}
 	});
 }
+
+$curPos = 0;
 
 $(document).ready(function(){
 		getMessages();
