@@ -1,3 +1,16 @@
+
+function postNewMessage(recvData){
+
+	var div = document.getElementById('chatscreen');
+	var output = "<div class='mitem'> <div class='userids'>" 
+	+ recvData.userid + ": </div>"
+	+ "<div class='message'>" + recvData.message
+	+ " </div> </div>";	
+	div.innerHTML = div.innerHTML + output;
+	div.scrollTop = div.scrollHeight;
+}
+
+
 function getMessages(){
 	var request = {
 		method: 'pull'
@@ -11,20 +24,13 @@ function getMessages(){
 		cache: false,
 		success: function(result){
 			//var data = jQuery.parseJSON(result);
-			var div = document.getElementById('chatscreen');
-			var last = div.lastChild.innerHTML;
-			var output = "<div class='mitem'> <div class='userids'>" + result.userid + ": </div>"
-			+ "<div class='message'>" + result.message + " </div> </div>";
-			if(last != output){
-				div.innerHTML = div.innerHTML + output;
-				div.scrollTop = div.scrollHeight;
-			}
+			postNewMessage(result);
 		},
 		complete: function(){
-			setTimeout(getMessages, 7000);
+			setTimeout(getMessages, 5000);
 			
 		}
-	})
+	});
 }
 
 function sendMessage(userid, message){
@@ -47,19 +53,15 @@ function sendMessage(userid, message){
 			else{
 				console.log("message failed to send!");
 			}
-			var output = "<div class='mitem'> <div class='userids'>" + packet.userid + ": </div>"
-			+ "<div class='message'>" + packet.message + " </div> </div>";
-			var div = document.getElementById('chatscreen');
-			var last = div.lastChild.innerHTML;
-			if(last != output){
-				div.innerHTML = div.innerHTML + output;
-				div.scrollTop = div.scrollHeight;
-			}
+			
+			//delete old text.
+			$('#message-field').val("");
 		},
 		complete: function(){
-			console.log("ajax send message finished.");
+			
+			
 		}
-	})
+	});
 }
 
 $(document).ready(function(){
@@ -70,7 +72,7 @@ $(document).ready(function(){
 			sendMessage(userid, message);
 			}
 		)
-})
+});
 	
 	
 
