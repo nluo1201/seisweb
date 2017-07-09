@@ -1,10 +1,4 @@
-<?php
-/*
-if($_POST['']){
-*/	
-}
-var_dump($_POST);
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +26,13 @@ var_dump($_POST);
 			<input type="date">
 			<input type="submit" value="Submit">
 		</form>
-
+	<?php
+	/*
+	if($_POST['']){
+	*/	
+	}
+	var_dump($_POST);
+	?>
 
 	</section>
 	
