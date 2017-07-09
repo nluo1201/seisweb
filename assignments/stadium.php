@@ -21,9 +21,9 @@
 	<section>
 		<h1>Request a ticket form</h1>
 		
-		<form action="stadium.php">
+		<form method="post" action="stadium.php">
 			Select a date to request your ticket:
-			<input type="date">
+			<input type="date" name="date">
 			<input type="submit" value="Submit">
 		</form>
 	<?php
