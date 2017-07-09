@@ -3,7 +3,7 @@
 if($_POST['']){
 */	
 }
-
+var_dump($_POST);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -58,22 +58,18 @@ if($_POST['']){
 	<img src="https://cdn.itv.com/uploads/editor/medium_gTDlDKQTiTazfnWUY0k_wuFObIXTrYM971wHatg86EA.jpg" alt="Leicester Stadium">
 	</section>
 	
-	
-
-</body>
-
-<footer>
-	
-  <p>Posted by: Henry Luong</p>
-  <p>Contact information: 
-	<a href="mailto:luon9752@stthomas.edu"> Send me an email! </a>
-  </p>
-  <nav>
-		<a href="./index.html"> Landing Page | </a> 
-		<a href="./squad.html">Squad</a> |
-		<a href="./stadium.html"> Stadium </a>
-		
-  </nav>
+	<footer>
+	  <p>Posted by: Henry Luong</p>
+	  <p>Contact information: 
+		<a href="mailto:luon9752@stthomas.edu"> Send me an email! </a>
+	  </p>
+	  <nav>
+			<a href="./index.html"> Landing Page | </a> 
+			<a href="./squad.html">Squad</a> |
+			<a href="./stadium.html"> Stadium </a>
+			
+	  </nav>
 </footer>
 
+</body>
 </html>
