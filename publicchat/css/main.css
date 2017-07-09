@@ -232,8 +232,15 @@ header{
 	color: red;
 }
 
+.timeprint{
+	background-color: aliceblue;
+	color: green;
+	font-family: 'Teko', sans-serif;
+}
+
 .userids{
 	color: red;
+	padding-left: 2%;
 }
 .message{
 	padding-left: 5%;

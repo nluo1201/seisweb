@@ -8,7 +8,7 @@ function postNewMessage(recvData){
 			$curPos = $curPos + size;
 			for (var i = 0; i < size; i++) {
 				var item = messages[i];
-				var output = "<div class='mitem'> <div class='userids'>" 
+				var output = "<div class='mitem'> <div class='timeprint'>"+ item.timeprint +"</div><div class='userids'>" 
 				+ item.userid + ": </div>"
 				+ "<div class='message'>" + item.message
 				+ " </div> </div>";	
