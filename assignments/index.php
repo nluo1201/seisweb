@@ -11,13 +11,12 @@
 
 <body>
 	<header>
-		<h1>Landing Page 3</h1>
+		<h1>Index.php file</h1>
 	</header>
-	<nav>
-		<a href="./squad.html">Squad</a> |
-		<a href="./stadium.html">Stadium | </a>
-		<a href="./stadium2.html">Stadium 2 </a>
-	</nav>
+	<?php
+		require("links.php");
+	?>
+	
 	<section>
 		<h1 id="team_name">Team Name: Leicester City</h1>
 		<p>The Socer team Leicester City is an English football club based at the King Power Stadium in Leicester </p>
@@ -34,11 +33,9 @@
 		<p>Contact information: 
 		<a href="mailto:luon9752@stthomas.edu"> Send me an email! </a>
 		</p>
-		<nav>
-			<a href="./squad.html">Squad</a> |
-			<a href="./stadium.html">Stadium |</a>
-			<a href="./stadium2.html"> Stadium 2 </a>
-		</nav>
+		<?php
+			require("links.php");
+		?>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
