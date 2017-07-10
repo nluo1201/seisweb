@@ -25,7 +25,8 @@
 			if(!$myfile){
 				echo("<h3> Unable to open request.txt file! </h3>");
 			}
-			$stat = fwrite($myfile, "\n". $_REQUEST);
+			$req_dump = print_r( $_REQUEST, true );
+			$stat = fwrite($myfile, "\n". $req_dump);
 			if(!$stat){
 				echo("<h3> Unable to write request to request.txt file </h3");
 			}
