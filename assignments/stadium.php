@@ -24,15 +24,14 @@
 		<form method="post" action="stadium.php">
 			Select a date to request your ticket:
 			<input type="date" name="date">
-			<input type="submit" value="Submit">
+			<input type="submit" name="ticketform" value="Submit">
 		</form>
 	<?php
 	/*
 	if($_POST['']){
 	}
 	*/	
-	
-	var_dump($_POST);
+	var_dump($_REQUEST);
 	?>
 
 	</section>
