@@ -25,12 +25,12 @@
 			if(!$myfile){
 				echo("<h3> Unable to open request.txt file! </h3>");
 			}
-			$stat = fwrite($myfile, "\n". $$_REQUEST);
+			$stat = fwrite($myfile, "\n". $_REQUEST);
 			if(!$stat){
 				echo("<h3> Unable to write request to request.txt file </h3");
 			}
 			if($myfile && $stat){
-				echo("<h3> All request has been written to request.txt successfully </h3");
+				echo("<h3> All request has been written to request.txt successfully! </h3");
 			}
 			fclose($myfile);
 		?>
