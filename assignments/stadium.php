@@ -10,7 +10,7 @@
 </head>
 <body>
 	<header>
-		<h1>Stadium2</h1>
+		<h1>Stadium.php</h1>
 	</header>
 	<nav>
 		<a href="./index.html"> Landing Page | </a>
@@ -21,19 +21,11 @@
 	<section>
 		<h1>Request a ticket form</h1>
 		
-		<form method="post" action="stadium.php">
+		<form method="post" action="action.php">
 			Select a date to request your ticket:
 			<input type="date" name="date">
 			<input type="submit" name="ticketform" value="Submit">
 		</form>
-	<?php
-	/*
-	if($_POST['']){
-	}
-	*/	
-	var_dump($_REQUEST);
-	?>
-
 	</section>
 	
 	<section>
