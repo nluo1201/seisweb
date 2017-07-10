@@ -27,7 +27,7 @@
 			}
 			$stat = fwrite($myfile, "\n". $$_REQUEST);
 			if(!stat){
-				echo("<h3> Unable to write request to request.txt file");
+				echo("<h3> Unable to write request to request.txt file </h3");
 			}
 			fclose($myfile);
 		?>
