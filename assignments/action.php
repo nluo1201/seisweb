@@ -21,8 +21,14 @@
 		<h2> Form Request Status: </h2>
 		<?php
 			var_dump($_REQUEST);
-			$myfile = fopen("request.txt", "a") or die("Unable to open request.txt file!");
-			fwrite($myfile, "\n". $$_REQUEST);
+			$myfile = fopen("request.txt", "a") ;
+			if(!$myfile){
+				echo("<h3> Unable to open request.txt file! </h3>");
+			}
+			$stat = fwrite($myfile, "\n". $$_REQUEST);
+			if(!stat){
+				echo("<h3> Unable to write request to request.txt file");
+			}
 			fclose($myfile);
 		?>
 		
