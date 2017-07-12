@@ -25,13 +25,14 @@ function detect_city($ip) {
 	curl_setopt_array($ch, $curl_opt);
 	
 	$content = curl_exec($ch);
-	
+	$curl_info = null;
 	if (!is_null($curl_info)) {
 		$curl_info = curl_getinfo($ch);
 	}
 	
 	curl_close($ch);
-	
+	$city="unknown";
+	$state="unknown";
 	if ( preg_match('{<li>City : ([^<]*)</li>}i', $content, $regs) )  {
 		$city = $regs[1];
 	}
@@ -49,12 +50,12 @@ function detect_city($ip) {
 }
 	
 function getRealIpAddr()  { 
-	$ip = "UNKNOWN"
-    if (!emptyempty($_SERVER['HTTP_CLIENT_IP']))  
+	$ip = "UNKNOWN";
+    if (!empty($_SERVER['HTTP_CLIENT_IP']))  
     {  
         $ip=$_SERVER['HTTP_CLIENT_IP'];  
     }  
-    elseif (!emptyempty($_SERVER['HTTP_X_FORWARDED_FOR']))  
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))  
     //to check ip is pass from proxy  
     {  
         $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];  
