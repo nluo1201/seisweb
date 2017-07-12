@@ -48,7 +48,8 @@ function detect_city($ip) {
 	
 }
 	
-function getRealIpAddr()  {  
+function getRealIpAddr()  { 
+	$ip = "UNKNOWN"
     if (!emptyempty($_SERVER['HTTP_CLIENT_IP']))  
     {  
         $ip=$_SERVER['HTTP_CLIENT_IP'];  
