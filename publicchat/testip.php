@@ -31,8 +31,8 @@ function detect_city($ip) {
 	}
 	
 	curl_close($ch);
-	$city="unknown";
-	$state="unknown";
+	$city='';
+	$state='';
 	if ( preg_match('{<li>City : ([^<]*)</li>}i', $content, $regs) )  {
 		$city = $regs[1];
 	}
