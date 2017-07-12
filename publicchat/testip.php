@@ -66,8 +66,8 @@ function getRealIpAddr()  {
     return $ip;  
 }
 
-echo "<h1>Your detected ip address is: " . $_SERVER['HTTP_CLIENT_IP'] . " </h1>";
-echo "<h1>Your location from that ip address is: " . detect_city($_SERVER['HTTP_CLIENT_IP'])  . " </h1>";
+echo "<h1>Your detected ip address is: " . $_SERVER['REMOTE_ADDR'] . " </h1>";
+echo "<h1>Your location from that ip address is: " . detect_city($_SERVER['REMOTE_ADDR'])  . " </h1>";
 echo "<h1>Your REAL ip address is: " . getRealIpAddr() . " </h1>";
 echo "<h1>Your location from REAL address is: " . getRealIpAddr()  . " </h1>";
 ?>
