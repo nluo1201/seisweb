@@ -1,0 +1,32 @@
+
+//JSON code for the albums.json file
+
+{   "artist":
+	[
+        {   "name": "The Louvin Brothers",
+            "album": "Tragic Songs of Life",
+            "year": 1956
+        },
+        {   "name": "Louis Prima",
+            "album": "The Wildest!",
+            "year": 1956
+        },
+        {   "name": "Fats Domino",
+            "album": "This is Fats Domino",
+            "year": 1957
+        },
+        {   "name": "Duke Ellington",
+            "album": "Ellington at Newport",
+            "year": 1956
+        },
+        {   "name": "Buddy Holly",
+            "album": "The 'Chirping' Crickets",
+            "year": 1957
+        },
+        {   "name": "Count Basie",
+            "album": "The Atomic Mr. Basie",
+            "year": 1957
+        }
+    ]
+}
+
