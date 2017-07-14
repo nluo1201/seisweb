@@ -6,16 +6,18 @@
     <div id="placeholder"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
-  $.getJSON('albums.json', function(data) {
-        var output="<ul>";
-        for (var i in data.artist) {
-            output+="<li>" + data.artist[i].name + " " + data.artist[i].album + "--" + data.artist[i].year+"</li>";
-        }
+	$(document).ready(function(){
+	  $.getJSON('albums.json', function(data) {
+			var output="<ul>";
+			for (var i in data.artist) {
+				output+="<li>" + data.artist[i].name + " " + data.artist[i].album + "--" + data.artist[i].year+"</li>";
+			}
 
-        output+="</ul>";
-        document.getElementById("placeholder").innerHTML=output;
-		console.log(output);
-  });
+			output+="</ul>";
+			document.getElementById("placeholder").innerHTML=output;
+			console.log(output);
+	  });
+	}
     </script>
 <?php require("files/footer.php"); ?>
 
