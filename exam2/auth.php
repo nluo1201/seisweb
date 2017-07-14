@@ -1,7 +1,5 @@
 
 <?php
-require("files/header.php");
-require("files/nav.php");
 require("files/login.php");
 
   if (isset($_SERVER['PHP_AUTH_USER']) &&
@@ -19,6 +17,3 @@ require("files/login.php");
     die ("Please enter your username and password");
   }
 ?>
-
-
-<?php require("files/footer.php"); ?>
