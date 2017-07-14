@@ -17,7 +17,7 @@
 			document.getElementById("placeholder").innerHTML=output;
 			console.log(output);
 	  });
-	}
+	)}
     </script>
 <?php require("files/footer.php"); ?>
 
