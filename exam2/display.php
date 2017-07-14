@@ -1,8 +1,13 @@
 <?php // display.php
+require("files/header.php");
+require("files/nav.php");
+echo "<h2>Display database contents </h2>";
+
+
   try
   {
 
-  include('connection.php');
+  include('files/connection.php');
 
     //now output the data to a simple html table...
     print "<table border=1>";
@@ -24,5 +29,8 @@
   {
     print 'Exception : '.$e->getMessage();
   }
+  
+  
+  require("files/footer.php");
 ?>
 

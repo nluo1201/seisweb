@@ -3,7 +3,7 @@
   try
   {
 
-  include('connection.php');
+  include('files/connection.php');
 
 
     //insert some data...
