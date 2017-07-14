@@ -12,7 +12,7 @@ if($status){
 else{
 	echo "<h3> Time changed FAILED! </h3>";
 }
-echo "<h2> DATE:" . date('l jS \of F Y h:i:s A') . " </h2>";
+echo "<h2> DATE: " . date('l jS \of F Y h:i:s A') . " </h2>";
 
 ?>
 

@@ -22,7 +22,10 @@
         data.addColumn('number', 'Slices');
         data.addRows([
           ['Mushrooms', 5],
-          ['Pepperoni', 4]
+		  ['Cheese', 4],
+		  ['Sausage', 6],
+		  ['Bacon', 3],
+          ['Pepperoni', 7]
         ]);
 
         // Set chart options
