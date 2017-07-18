@@ -68,8 +68,10 @@
 		var t = 0;
 
 		var run = function() {
-		for(x=0;x<=35;x++) {
-		for(y=0;y<=35;y++) {
+			var divHeight = document.getElementById('canv').clientHeight;
+			var divWidth = document.getElementById('canv').clientWidth;
+		for(x=0;x<=divHeight;x++) {
+		for(y=0;y<=divWidth;y++) {
 		  col(x, y, R(x,y,t), G(x,y,t), B(x,y,t));
 		}
 		}
