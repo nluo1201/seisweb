@@ -13,6 +13,7 @@
 		<li> General tutorials site for knowledge: <a href="https://www.w3schools.com/">w3schools</a>   </li>
 		<li> Canvas tutorials: <a href="http://www.html5canvastutorials.com">html5canvastutorials</a>   </li>
 		<li> Audio and Video resources: <a href="http://www.music.army.mil/music/nationalanthem/">music.army.mil</a>   </li>
+		<li> wireframe and content map tool: <a href="https://www.draw.io/">draw.io</a>   </li>
 	</ul>
 
 </section>
@@ -30,7 +31,7 @@
 	<li>CSS Glyphs in footer copyrighted section.</li>
 	<li>Video element in <a href="snippets.php">snippets </a>page.</li>
 	<li>Audio element of usa national athem in <a href="snippets.php">snippets </a>page.</li>
-	<li>An overview slideshow in <a href="snippets">snippets </a>page.</li>
+	<li>An overview slideshow in <a href="snippets.php">snippets </a>page.</li>
 	<li>Use google's Tekkon web font on all headers.</li>
 	<li><a href="snippets.php">Gradient transition</a> section as canvas element.</li>
 	<li>Chat and Visualization button as HTML5 <a href="index.php">form input validation</a>.</li>
