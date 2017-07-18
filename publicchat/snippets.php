@@ -44,7 +44,7 @@
 
 <section class="section">
 	<h3>Canvas Animation </h3>
-	<canvas id="canv" width="100%" height="400px">
+	<canvas id="canv">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
 		var c = document.getElementById('canv');
