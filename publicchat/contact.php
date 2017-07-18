@@ -1,10 +1,10 @@
  <?php include("./html_inc/header.php"); ?>
 
 <h1> Contact </h1>
-<nav class="sub-nav">
-	
-</nav>
 
+
+
+<a href="mailto:luon9752@stthomas.edu"> Send me an email! </a>
 
 
 
