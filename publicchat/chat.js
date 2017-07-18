@@ -47,7 +47,8 @@ function getMessages(){
 			postNewMessage(result);
 		},
 		complete: function(){
-			setTimeout(getMessages, 5000);
+			//automatically get messages every 2 secs.
+			setTimeout(getMessages, 2000);
 			
 		}
 	});

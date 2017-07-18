@@ -1,3 +1,4 @@
+
 <?php
 class MyDB extends SQLite3 {
   function __construct() {
@@ -77,7 +78,9 @@ if(isset($_POST['method'])){
 			break;
 		case 'push':
 			$userid = $_POST['userid'];
+			$userid = strip_tags($userid);
 			$message = $_POST['message'];
+			$message = strip_tags($message);
 			$status = write_message($userid, $message);
 			echo json_encode($status);
 			break;

@@ -123,8 +123,6 @@ body {
 
 .sub-nav {
 	background-color: aqua;
-	border: 1pt solid black ;
-	color: red;
 	text-align: center;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -142,12 +140,7 @@ body {
 
 /* Change the link color to aqua on hover */
 .sub-nav a:hover {
-	background-color: aliceblue;
-	color: blue;
-}
-   
-h1::first-line { 
-    background-color: aliceblue;
+	background-color: white;
 }
 
 h1,h2 {
@@ -163,12 +156,12 @@ header{
 }
 
 /* id = chat-box */
-#chat-box {
+.form-box {
 	background-color: lightblue;
-	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
 	height: 25%;
 }
-
 
 #chatscreen {
 	overflow-y:scroll ;
@@ -178,48 +171,27 @@ header{
 	background-color: ghostwhite;
 }
 
-#send-butt {
+#send-butt , #chat-butt, #visual-butt{
 	border: 1pt solid;
     color: black;
 	background-color: skyblue ;
     padding: 20px 20px 20px 20px;
-	width: 20%;
-	height: 20%
+	width: 220px;
+	height: 90px;
     text-align: center;
     display: inline-block;
-    font-size: 20px;
+    font-size: 4vh;
 	font-family: 'Teko', sans-serif;
     margin: 4px 2px;
     cursor: pointer;
-}
-
-#chat-butt  {
-	border: 1pt solid;
-    color: black;
-	background-color: skyblue ;
-    padding: 20px 20px 20px 20px;
-	width: 20%;
-	height: 20%
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-	font-family: 'Teko', sans-serif;
-    margin: 4px 2px;
-    cursor: pointer;
+	box-shadow: 1px 1px;
 }
 
 
-#chat-butt:hover {
+#chat-butt:hover, #send-butt:hover, #visual-butt:hover {
 	background-color: aqua;
 	border: none;
 }
-
-#send-butt:hover {
-	background-color: aqua;
-	border: none;
-}
-
-
 
 #chat-input:{
 	background-color: white;
@@ -255,7 +227,17 @@ header{
 	
 }
 
+.section {
+	background-color: aliceblue;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 20px;
+	border: 0.5pt solid;
+}
 
+.section:hover {
+	background-color: floralwhite;
+} 
 
 
 

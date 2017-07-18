@@ -3,7 +3,7 @@
 
 <h1> HOME </h1>
 
-<div id="chat-box"> 
+<div class="form-box"> 
 	<form method="post" action="./chat.php">
 	Enter any padding name:<br>
 	<input type="text" name="name" placeholder="user">
