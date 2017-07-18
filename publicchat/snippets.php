@@ -43,7 +43,7 @@
 
 
 <section class="section">
-	<h3>Canvas Animation </h3>
+	<h3>Canvas Gradient Color Animation </h3>
 	<canvas id="canv">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
@@ -79,13 +79,28 @@
 		window.requestAnimationFrame(run);
 		}
 		run();
-		</script>
+	</script>
 
 </section>
 
+<section class="section">
+	<h3>Video Element</h3>
+	<video width="100%" height="400" controls>
+	  <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	
 
+</section>
 
+<section class="section">
+	<h3>Audio Element</h3>
+	<audio controls>
+	  <source src="audio/usa.mp3" type="audio/mp3">
+	Your browser does not support the audio element.
+	</audio>
 
+</section>
 
 
 
