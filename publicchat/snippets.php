@@ -4,7 +4,7 @@
 
 <section class="section">
 	<h3> Overview Slide Show </h3>
-	<div class="panel" style="width:80%; height:500px; position: center">
+	<div class="panel" style="width:100%; height:500px; position: center">
 		<img class="mySlides" src="./img/slide01.png" style="height: 100%; width: 100%; object-fit: contain">
 		<img class="mySlides" src="./img/slide02.png" style="height: 100%; width: 100%; object-fit: contain">
 		<img class="mySlides" src="./img/slide03.png" style="height: 100%; width: 100%; object-fit: contain">
