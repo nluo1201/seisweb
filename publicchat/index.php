@@ -1,7 +1,7 @@
  <?php include("./html_inc/header.php"); ?>
 
 
-<h1> HOME </h1>
+<h1> Home </h1>
 
 <div class="form-box"> 
 	<form method="post" action="./chat.php">
