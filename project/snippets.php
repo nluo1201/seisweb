@@ -104,13 +104,14 @@
 
 <section class="section" id="shadowdom">
 <h3>ShadowDOM</h3>
-	<div id="rotate" onclick="doShadowDom">Click </div>
+	<p>Click  </p>
+	<div id="rotate" style="background-color: aqua;" onclick="doShadowDom()"> Click Me</div>
 	<script>
 		var msg = ["Hello!", "Welcome to Public Chat!", "Let's get started!", "Good Bye!"];
 		var index = 0;
 		function doShadowDom(){
 		  var host = document.querySelector('#rotate');
-		  var root = host.webkitCreateShadowRoot();
+		  var root = (host.createShadowRoot || host.webkitCreateShadowRoot).call(host);
 		  root.textContent = msg[index];
 		  index = (index + 1) % msg.length;
 		}
