@@ -167,7 +167,7 @@ body {
 	background-color: aliceblue;
 }
 
-table {
+table , tr{
 	background-color: white;
 	position: center;
 	padding-top: 1%;
@@ -175,7 +175,7 @@ table {
 	border: none;
 	width: 100%;
 }
-th a{
+th, th > a{
 	text-align: center;
     vertical-align: middle;
 	text-decoration: none;
@@ -188,12 +188,12 @@ th a{
 	color: black;
 	border: none;
 }
-th a:hover, td a:hover {
+th:hover, th > a:hover, th >td a:hover {
 	background-color: aliceblue;
 }
 
 
-td a {
+td, td > a {
 	text-align: center;
     vertical-align: middle;
 	text-decoration: none;
