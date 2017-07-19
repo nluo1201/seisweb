@@ -2,7 +2,7 @@
 
 <h1> Snippets </h1>
 
-<section class="section">
+<section class="section" id="slideshow">
 	<h3> Overview Slide Show </h3>
 	<div class="panel" style="width:100%; height:400px; position: center">
 		<img class="mySlides" src="./img/slide01.png" style="height: 100%; width: 100%; object-fit: contain">
@@ -29,7 +29,7 @@
 	</script>
 </section>
 
-<section class="section">
+<section class="section" id="visualization">
 	<h3> Visualization Feature </h3>
 	<p> To see the site's chat usage information, click on the button below. You need an admin's credentials in order to access this feature. </p>
 	<div class="form-box"> 
@@ -42,7 +42,7 @@
 </section>
 
 
-<section class="section">
+<section class="section" id="canvas">
 	<h3>Canvas Gradient Color Animation </h3>
 	<canvas id="canv">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -83,7 +83,7 @@
 
 </section>
 
-<section class="section">
+<section class="section" id="video">
 	<h3>Video Element</h3>
 	<video width="100%" height="400" controls>
 	  <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
@@ -93,7 +93,7 @@
 
 </section>
 
-<section class="section">
+<section class="section" id="audio">
 	<h3>Audio Element</h3>
 	<audio controls>
 	  <source src="audio/usa.mp3" type="audio/mp3">

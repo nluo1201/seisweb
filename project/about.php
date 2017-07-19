@@ -6,7 +6,7 @@
 	<a href="./wireframe.php">Wireframe</a>
 </nav>
 
-<section class="section">
+<section class="section" id="credits">
 	<h3> Credits </h3>
 	<p> Below are a list and links to all the 3rd party resources I've used for this project</p>
 	<ul>
@@ -18,7 +18,7 @@
 
 </section>
 
-<section class="section">
+<section class="section" id="walkthrough">
 	<h3> Walkthrough </h3>
 	<p> Below is a description of all requirements and its implementation in this site:</p>
 	<ul>
