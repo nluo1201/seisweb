@@ -33,7 +33,7 @@
 	<li>Audio element of usa national athem in <a href="snippets.php#audio">snippets audio </a>section.</li>
 	<li>An overview slideshow in <a href="snippets.php#slideshow">snippets slideshow </a>section.</li>
 	<li>Use google's Tekon web font on all headers.</li>
-	<li>Gradient transition section as <a href="snippets.php#canvas">canvas</a>element. Intended to span across window screen but I failed to calculate the resized amount so I draw a square instead.</li>
+	<li>Gradient transition section as <a href="snippets.php#canvas">canvas</a> element. Intended to span across window screen but I failed to calculate the resized amount so I draw a square instead.</li>
 	<li>Chat button as HTML5 <a href="index.php#chat-butt">form input validation</a>.</li>
 	<li>JSON for data interchange for messages delivery and site visualization updates through AJAX and JQuery. This is the hardest thing in the whole project because it is real time updates right on the screen. Extra credits for this effort?</li>
 	<li>Footer navigation is included with nested grid views of all sub links and sections.</li>
@@ -43,7 +43,7 @@
 	<li>Authentication required to access <a href="snippets.php#visualization">visualization feature</a>. username: admin, pass: letmein.</li>
 	<li>The About  page includes a <a href="about.php#credits">Credits</a> section that lists and links to<br />the external resources I've used.</li>
 	<li>Project <a href="about.php#walkthrough">Walkthrough</a> is this one.</li>
-	<li>PageSpeed Insights: all passed 88/94: <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Flinux2.gps.stthomas.edu%2F~luon9752%2Fproject%2F"> Click to see scores</a></li>
+	<li>PageSpeed Insights: all passed 88/93: <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Flinux2.gps.stthomas.edu%2F~luon9752%2Fproject%2F"> Click to see scores</a></li>
 	</ul>
 </section>
 
