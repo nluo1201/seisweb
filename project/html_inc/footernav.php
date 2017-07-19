@@ -1,9 +1,13 @@
+
+<!--
 <nav class="footer-nav">
 	<a href="./index.php">Home</a>
 	<a href="./about.php">About</a>
 	<a href="./snippets.php">Snippets</a>
 	<a href="./contact.php">Contact</a>
 </nav>
+!-->
+
 <!--
 <nav class="sub-footer-nav">
 	<a href="./content_map.php">Content Map</a>
