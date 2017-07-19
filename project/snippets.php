@@ -111,7 +111,6 @@
 		var index = 0;
 		function doShadowDom(){
 		  var host = document.querySelector('#rotate');
-		  removeChildren(host);
 		  removeShadow(host);
 		  var root = host.createShadowRoot.call(host);
 		  root.textContent = msg[index];
