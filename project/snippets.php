@@ -105,7 +105,8 @@
 <section class="section" id="shadowdom">
 <h3>ShadowDOM</h3>
 	<p>Click the button below to rotate shadowDom root text content.</p>
-	<button type="button" id="rotate" onclick="doShadowDom()">Click Me</button>
+	<button type="button" onclick="doShadowDom()">Click Me</button>
+	<div id="rotate"> </div>
 	<script>
 		var msg = ["Hello!", "Welcome to Public Chat!", "Let's get started!", "Good Bye!"];
 		var index = 0;
