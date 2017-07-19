@@ -39,7 +39,7 @@
 	<li>Footer navigation is included.</li>
 	<li><a href="database/">Sqlite database</a> as of server-side persistent storage for the chat and visualization engines.</li>
 	<li>Used goolge pie chart as <a href="snippets.php">data visualization</a> for site's usage.</li>
-	<li>Implementation of Shadow DOM that allows a chat user to change his username right on the chat session (not working currently).</li>
+	<li>Implementation of <a href="snippets.php#shadowdom">Shadow DOM </a> that let a user click a node element and rotate its text content.</li>
 	<li>Authentication required to access <a href="snippets.php">visualization feature</a>. username: admin, pass: letmein.</li>
 	<li>The <a href="about.php">About</a> page includes a Credits section that lists and links to<br />the external resources I've used.</li>
 	<li>Project <a href="about.php">Walkthrough</a> is this one.</li>

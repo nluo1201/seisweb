@@ -61,4 +61,10 @@
 	<td><a href="./snippets.php#audio">Audio</a></td>
     <td></td>
   </tr>
+    <tr class="sub-footer-tr">
+    <td></td>
+    <td></td>
+	<td><a href="./snippets.php#shadowdom">Shadow DOM</a></td>
+    <td></td>
+  </tr>
 </table>
