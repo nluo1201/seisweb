@@ -145,6 +145,24 @@ body {
 	background-color: aliceblue;
 }
 
+.footer-tr th{
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 0%;
+	margin: 0%;
+	display: block;
+}
+.footer-tr th>a{
+	text-decoration: none;
+	font-family: 'Teko', sans-serif;
+	font-size: 16pt;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: black;
+}
 
 
 .sub-footer-nav{
@@ -167,6 +185,23 @@ body {
 
 .sub-footer-nav a:hover {
 	background-color: aliceblue;
+}
+
+.sub-footer-tr{
+	background-color: white;
+	padding: 0%;
+	margin: 0%;
+	display: block;
+}
+.sub-footer-tr td>a{
+	text-decoration: none;
+	font-family: 'Teko', sans-serif;
+	font-size: 16pt;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: red;
 }
 
 table {
