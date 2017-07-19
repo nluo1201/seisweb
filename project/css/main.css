@@ -129,7 +129,7 @@ body {
 	margin: 0;
 	display: block;
 }
-.footer-nav a {
+.footer-nav a , .footer-nav th {
 	display: inline-block;
 	text-decoration: none;
 	font-family: 'Teko', sans-serif;
@@ -154,7 +154,7 @@ body {
 	margin: 0;
 	display: block;
 }
-.sub-footer-nav a {
+.sub-footer-nav a, .sub-footer-nav td {
 	text-decoration: none;
 	font-family: 'Teko', sans-serif;
 	font-size: 16pt;
