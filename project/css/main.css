@@ -174,10 +174,11 @@ table {
 	padding-top: 1%;
 	padding-bottom: 1%;
 	border: none;
+	width: 100%;
 }
-
 th,td {
 	text-align: center;
+    vertical-align: middle;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	padding-left: 3%;
