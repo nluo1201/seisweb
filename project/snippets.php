@@ -110,7 +110,7 @@
 		var msg = ["Hello!", "Welcome to Public Chat!", "Let's get started!", "Good Bye!"];
 		var index = 0;
 		var host = document.querySelector('#rotate');
-		var root = host.createShadowRoot;
+		var root = host.attachShadow({mode: 'open'});
 		function doShadowDom(){
 		  root.textContent = msg[index];
 		  index = (index + 1) % msg.length;
