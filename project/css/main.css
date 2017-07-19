@@ -327,13 +327,16 @@ header{
 
 
 .panel{
-	display: inline-block;
+	display: inline-flex;
 	text-decoration: none;
 	font-family: 'Teko', sans-serif;
 	font-size: 20pt;
 	padding: 1%;
 	color: black;
 	background-color: aqua;
+}
+#rotate {
+	padding-left: 3%;
 }
 
 
