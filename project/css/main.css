@@ -129,7 +129,7 @@ body {
 	margin: 0;
 	display: block;
 }
-.footer-nav a , .footer-nav th {
+.footer-nav a{
 	display: inline-block;
 	text-decoration: none;
 	font-family: 'Teko', sans-serif;
@@ -154,7 +154,7 @@ body {
 	margin: 0;
 	display: block;
 }
-.sub-footer-nav a, .sub-footer-nav td {
+.sub-footer-nav a{
 	text-decoration: none;
 	font-family: 'Teko', sans-serif;
 	font-size: 16pt;
@@ -169,6 +169,21 @@ body {
 	background-color: aliceblue;
 }
 
+table {
+	position: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border: none;
+}
+
+th,td {
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	border: none;
+}
 
 .sub-nav {
 	background-color: aqua;
