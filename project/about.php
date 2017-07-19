@@ -43,7 +43,7 @@
 	<li>Authentication required to access <a href="snippets.php">visualization feature</a>. username: admin, pass: letmein.</li>
 	<li>The <a href="about.php">About</a> page includes a Credits section that lists and links to<br />the external resources I've used.</li>
 	<li>Project <a href="about.php">Walkthrough</a> is this one.</li>
-	<li>PageSpeed Insights: all passed 88/94: <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Flinux2.gps.stthomas.edu%2F~luon9752%2Fpublicchat%2F"> Click to see scores</a></li>
+	<li>PageSpeed Insights: all passed 88/94: <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Flinux2.gps.stthomas.edu%2F~luon9752%2Fproject%2F"> Click to see scores</a></li>
 	</ul>
 </section>
 
