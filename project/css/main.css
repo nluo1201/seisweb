@@ -145,26 +145,6 @@ body {
 	background-color: aliceblue;
 }
 
-.footer-tr th{
-	background-color: white;
-	color: black;
-	text-align: center;
-	padding: 0%;
-	margin: 0%;
-	display: block;
-}
-.footer-tr th>a{
-	text-decoration: none;
-	font-family: 'Teko', sans-serif;
-	font-size: 16pt;
-	padding-left: 4%;
-	padding-right: 4%;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	color: black;
-}
-
-
 .sub-footer-nav{
 	background-color: white;
 	text-align: center;
@@ -187,13 +167,32 @@ body {
 	background-color: aliceblue;
 }
 
-.sub-footer-tr{
+table {
 	background-color: white;
-	padding: 0%;
-	margin: 0%;
-	display: block;
+	position: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border: none;
+	width: 100%;
 }
-.sub-footer-tr td>a{
+th{
+	text-align: center;
+    vertical-align: middle;
+	text-decoration: none;
+	font-family: 'Teko', sans-serif;
+	font-size: 16pt;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: black;
+	border: none;
+}
+
+
+td a {
+	text-align: center;
+    vertical-align: middle;
 	text-decoration: none;
 	font-family: 'Teko', sans-serif;
 	font-size: 16pt;
@@ -202,22 +201,6 @@ body {
 	padding-top: 1%;
 	padding-bottom: 1%;
 	color: red;
-}
-
-table {
-	position: center;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	border: none;
-	width: 100%;
-}
-th,td {
-	text-align: center;
-    vertical-align: middle;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	padding-left: 3%;
-	padding-right: 3%;
 	border: none;
 }
 
