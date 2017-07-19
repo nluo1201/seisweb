@@ -188,10 +188,6 @@ th, th > a{
 	color: black;
 	border: none;
 }
-th:hover, th > a:hover, th >td a:hover {
-	background-color: aliceblue;
-}
-
 
 td, td > a {
 	text-align: center;
@@ -205,6 +201,10 @@ td, td > a {
 	padding-bottom: 1%;
 	color: red;
 	border: none;
+}
+
+th:hover, th > a:hover, th >td a:hover, td:hover {
+	background-color: aliceblue;
 }
 
 .sub-nav {
