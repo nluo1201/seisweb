@@ -29,20 +29,20 @@
 	<li>The project includes the following <a href="index.php">4 top level sections</a>: Home,&nbsp;About, Snippets &amp; Contact.</li>
 	<li>Added a unique <a href="favicon.ico">favicon</a> created using photoshop.</li>
 	<li>CSS Glyphs in footer copyrighted section.</li>
-	<li>Video element in <a href="snippets.php">snippets </a>page.</li>
-	<li>Audio element of usa national athem in <a href="snippets.php">snippets </a>page.</li>
-	<li>An overview slideshow in <a href="snippets.php">snippets </a>page.</li>
-	<li>Use google's Tekkon web font on all headers.</li>
-	<li><a href="snippets.php">Gradient transition</a> section as canvas element.</li>
-	<li>Chat and Visualization button as HTML5 <a href="index.php">form input validation</a>.</li>
-	<li>JSON for data interchange for message delivery and site visualization updates.</li>
-	<li>Footer navigation is included.</li>
+	<li>Video element in <a href="snippets.php#video">snippets video </a>section.</li>
+	<li>Audio element of usa national athem in <a href="snippets.php#audio">snippets audio </a>section.</li>
+	<li>An overview slideshow in <a href="snippets.php#slideshow">snippets slideshow </a>section.</li>
+	<li>Use google's Tekon web font on all headers.</li>
+	<li>Gradient transition section as <a href="snippets.php#canvas">canvas</a>element. Intended to span across window screen but I failed to calculate the resized amount so I draw a square instead.</li>
+	<li>Chat button as HTML5 <a href="index.php#chat-butt">form input validation</a>.</li>
+	<li>JSON for data interchange for messages delivery and site visualization updates through AJAX and JQuery. This is the hardest thing in the whole project because it is real time updates right on the screen. Extra credits for this effort?</li>
+	<li>Footer navigation is included with nested grid views of all sub links and sections.</li>
 	<li><a href="database/">Sqlite database</a> as of server-side persistent storage for the chat and visualization engines.</li>
-	<li>Used goolge pie chart as <a href="snippets.php">data visualization</a> for site's usage.</li>
+	<li>Used goolge pie chart as <a href="snippets.php#visualization">data visualization</a> for site's usage.</li>
 	<li>Implementation of <a href="snippets.php#shadowdom">Shadow DOM </a> that let a user click a node element and rotate its text content.</li>
-	<li>Authentication required to access <a href="snippets.php">visualization feature</a>. username: admin, pass: letmein.</li>
-	<li>The <a href="about.php">About</a> page includes a Credits section that lists and links to<br />the external resources I've used.</li>
-	<li>Project <a href="about.php">Walkthrough</a> is this one.</li>
+	<li>Authentication required to access <a href="snippets.php#visualization">visualization feature</a>. username: admin, pass: letmein.</li>
+	<li>The About  page includes a <a href="about.php#credits">Credits</a> section that lists and links to<br />the external resources I've used.</li>
+	<li>Project <a href="about.php#walkthrough">Walkthrough</a> is this one.</li>
 	<li>PageSpeed Insights: all passed 88/94: <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Flinux2.gps.stthomas.edu%2F~luon9752%2Fproject%2F"> Click to see scores</a></li>
 	</ul>
 </section>
