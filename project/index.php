@@ -6,7 +6,8 @@
 <div class="form-box"> 
 	<form method="post" action="./chat.php">
 	Enter any padding name:<br>
-	<input type="text" name="name" placeholder="user">
+	<p>Notes: No special characters will be allowed </p>
+	<input type="text" pattern="[^()/><\][\\\x22,;|]+" name="name" placeholder="user">
 	<input id="chat-butt" type="submit" value="Start Chat">
 	</form> 
 </div>
