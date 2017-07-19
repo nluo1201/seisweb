@@ -111,7 +111,7 @@
 		var index = 0;
 		function doShadowDom(){
 		  var host = document.querySelector('#rotate');
-		  var root = (host.createShadowRoot || host.webkitCreateShadowRoot).call(host);
+		  var root = host.createShadowRoot.call(host);
 		  root.textContent = msg[index];
 		  index = (index + 1) % msg.length;
 		}
