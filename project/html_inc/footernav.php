@@ -5,7 +5,7 @@
 	<a href="./contact.php">Contact</a>
 </nav>
 
-<nav class="sub-nav">
+<nav class="sub-footer-nav">
 	<a href="./content_map.php">Content Map</a>
 	<a href="./wireframe.php">Wireframe</a>
 	<a href="./about.php#credits">Credits</a>
